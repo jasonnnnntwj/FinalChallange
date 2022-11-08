@@ -1,4 +1,4 @@
-from re import A
+
 from tkinter import*
 from turtle import color
 
@@ -94,12 +94,7 @@ def pattern1():
             else: 
                 button[i][j].config(bg='grey1') 
                 value[i][j] = 90 
-# def pattern1():
-#   n =int
-#   print("This is pattern1")
-#   for j in range (32):
-#     for i in range (0,):
-    
+
 
 
 def pattern2():
