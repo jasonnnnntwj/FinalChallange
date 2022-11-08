@@ -9,22 +9,23 @@ from turtle import color
 def ColourSwitch(a):
  global colour
  colour= a
- if colour == 0:
-    print("Click button to make it white.")
- elif colour ==1:
-    print("Click button to make it gray 1")
- elif colour ==2:
-    print("Click button to make it gray 2")
- elif colour ==3:
-    print("Click button to make it gray 3")    
- elif colour ==4:
-    print("Click button to make it gray 4")    
- elif colour ==5:
-    print("Click button to make it gray 5")
- elif colour ==6:
-    print("Click button to make it gray 6")
- else:
-    print("Click button to make it black")
+ print("currently selected colour is {}".format(colour))
+#  if colour == 0:
+#     print("Click button to make it white.")
+#  elif colour ==1:
+#     print("Click button to make it gray 1")
+#  elif colour ==2:
+#     print("Click button to make it gray 2")
+#  elif colour ==3:
+#     print("Click button to make it gray 3")    
+#  elif colour ==4:
+#     print("Click button to make it gray 4")    
+#  elif colour ==5:
+#     print("Click button to make it gray 5")
+#  elif colour ==6:
+#     print("Click button to make it gray 6")
+#  else:
+#     print("Click button to make it black")
 
 #function to assign button to colour 
 def ColourButton(i, j):
@@ -154,6 +155,7 @@ for j in range (32):
     button[i][j].grid(row=i, column=j)
 
 #FRAME B's Buttons to control colour selection
+#lambda is a 'small function like the 'def' functions on top. In this instance it stores the value of a (btw colour=a), with the number, then it pulls the colour switch 
 
 white= Button(frameB, text="White", font=("Arial,12"),bg='grey99',width=13,height=2, command=lambda a=0:ColourSwitch(a))
 white.grid(row=0,column=0)
