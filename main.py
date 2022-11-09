@@ -5,7 +5,8 @@ from turtle import color
 
 #function section
 
-#function to assign colour integer value so can switch ltr, also it prints out value of colour when selected
+#function to assign colour integer value so can switch ltr, also it prints out value of colour when selected, the bottom is just the hard code method that doesnt use the .format call back 
+#argument which is way lesser lines
 def ColourSwitch(a):
  global colour
  colour= a
@@ -155,7 +156,8 @@ for j in range (32):
     button[i][j].grid(row=i, column=j)
 
 #FRAME B's Buttons to control colour selection
-#lambda is a 'small function like the 'def' functions on top. In this instance it stores the value of a (btw colour=a), with the number, then it pulls the colour switch 
+#lambda is a 'small function like the 'def' functions on top. In this instance it sets the value of colour/a as the number then it calls the colour switch function with the variable set as a
+#in the parameter so it'll print out the value in the terminal accourding to the button pressed.
 
 white= Button(frameB, text="White", font=("Arial,12"),bg='grey99',width=13,height=2, command=lambda a=0:ColourSwitch(a))
 white.grid(row=0,column=0)
