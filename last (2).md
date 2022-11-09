@@ -222,6 +222,8 @@ pattern2.grid(row=0, column=3)
 ![GUI](diagram/gui_pattern_presets.jpg)
 
 
+
+
 ## Code for the the features function
 Code for **All WHITE** Function. 
 ```
@@ -243,6 +245,7 @@ print("All Black!")
       value[i][j] = 90
 ```
 ![GUI](diagram/gui_all_black.jpg)
+
 Code for **All PATTERN 1** Function.  
 ```
 def pat1():
