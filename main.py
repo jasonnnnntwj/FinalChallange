@@ -6,7 +6,7 @@ from turtle import color
 #function section
 
 #function to assign colour integer value so can switch ltr, also it prints out value of colour when selected, the bottom is just the hard code method that doesnt use the .format call back 
-#argument which is way lesser lines
+#argument which is way lesser lines18
 def ColourSwitch(a):
  global colour
  colour= a
@@ -128,19 +128,19 @@ colour = 0
 
 #INDIVIDUAL FRAMES FOR GUI WIDGET PLACEMENTS
 #32x32 buttons
-frameA = Frame(main) 
-frameA.grid(row=0, column=0)
+frameA = Frame(main, highlightbackground="blue", highlightthickness=4) 
+frameA.grid(row=0, column=0,padx=20, pady=20)
 
 #shades buttons  
-frameB = Frame(main) 
-frameB.grid(row=0, column=1)
+frameB = Frame(main, highlightbackground="red", highlightthickness=4) 
+frameB.grid(row=0, column=1,padx=20, pady=20)
 
 #colour buttons
-frameC = Frame(main)
+frameC = Frame(main, highlightbackground="green", highlightthickness=4)
 frameC.grid(row=1, columnspan=2) 
 
 #send buttons
-frameD = Frame(main)
+frameD = Frame(main, highlightbackground="yellow", highlightthickness=4)
 frameD.grid(row=2, columnspan=2)
 
 #FRAME A's GRID'S BUTTON NESTED LOOP TO MAKE THE 32X32 
