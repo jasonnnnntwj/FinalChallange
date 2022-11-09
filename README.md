@@ -99,7 +99,7 @@ frame4 = Frame(main) #Send btn
 frame4.grid(row=2, columnspan=2)
 ```
 
-(Pic)
+![GUI](diagram/gui_frame.jpg)
 
 # Create 32 x 32 Buttons
 The 32 x 32 buttons are made by **nested for loop**
