@@ -14,7 +14,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 *Photo of Raspberry Pi*
 ---
 ---
-![Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.raspberrypi.com%2Fproducts%2Fraspberry-pi-4-model-b%2F&psig=AOvVaw1p_VX8K46ex9KxcFOp_uTz&ust=1668130450151000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCID_i6m8ovsCFQAAAAAdAAAAABAF)
+[Source](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
 
 # Software Setup & Installation 
@@ -77,8 +77,7 @@ Create a window
 main = Tk()
 ```
 
-For the window to stay on the screen, we need to loop it. (Make sure the mainloop is at the bottom of the code if not the code outside won't be included
-in the tkinter window)
+For the window to stay on the screen, we need to loop it. 
 ```
 main.mainloop()
 ```
