@@ -42,8 +42,10 @@ sudo passwd
 
 ## 1. Updating of Raspberry Pi
 
-```sudo apt update` <br>
-sudo apt upgrade```
+```
+sudo apt update <br>
+sudo apt upgrade
+```
 
 ## 2. Configuring of Raspberry Pi
 SSH is a network communication protocol that enables two computers to communicate and share data.
