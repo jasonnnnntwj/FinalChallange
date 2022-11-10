@@ -8,8 +8,9 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
-**Version** : Buster
+**Version** : Raspbian Buster <br>
 ![GUI](diagram/Pi4.png)
+*Photo of Raspberry Pi*
 
 # Software Setup & Installation 
 ## Setting up of the Raspberry PI
@@ -19,11 +20,12 @@ After installing PuTTy, Change your desired **hostname** and **Connection Type**
 Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. Click the file once and load it. To finish it off Click **Open**.
 
 ![GUI](diagram/piTerminal.jpg)
-
+*Photo of PuTTy Setup*
 
 Enter your username and password. The default login for User is "pi" and the Password is "raspberry".
 
 ![GUI](diagram/puttyConfig.jpg)
+*Photo of PuTTy CMD*
 
 To change your password, use the following command
 ``` 
@@ -75,6 +77,7 @@ main.mainloop()
 ```
 
 ![GUI](diagram/tkinterWindow.jpg)
+*Photo of Main Window*
 
 # Frame Function
 Under the **Main Window** there are many buttons, frames are made to make the buttons organised. This will help with the buttons being in their own group.
@@ -101,6 +104,7 @@ frame4.grid(row=2, columnspan=2)
 ```
 
 ![GUI](diagram/gui_frame.jpg)
+*Photo of Frames in Window*
 
 # Create 32 x 32 Buttons
 The 32 x 32 buttons are made by **nested for loop** that is inside
@@ -114,6 +118,7 @@ for j in range (32):
 ```
 
 ![GUI](diagram/gui_grid.jpg)
+*Photo of 32 x 32 Grid*
 
 # Create Shades Buttons
 These buttons will change the background color and the text font for the buttons when the following shade is selected
@@ -144,6 +149,7 @@ black.grid(row=7, column=0)
 ```
 _
 ![GUI](diagram/gui_colour_buttons.jpg)
+*Photo of Shade Buttons*
 
 
 ## Creating a variable to store colour value. 
@@ -175,8 +181,9 @@ def change_colour(m):
 ## **Output**
 
 ![GUI](diagram/change_colour.gif)
+*GIF Of Shade Change command*
 
-Using if else statement to create fucntions for the white buttons. 
+Using if else statement to create function for the white buttons. 
 ```
 def whitebtn(i, j):
   global colour   
@@ -207,6 +214,7 @@ def whitebtn(i, j):
 ```
 ## **Output**
 ![GUI](diagram/white_btn.gif)
+*Photo of Shade color change*
 
 # Features Buttons 
 Similar to the shade buttons, the specific command has to be add to the button to have a different outcome.
@@ -224,7 +232,7 @@ pattern2 = Button(frame3, text="Pattern 2",font=("Arial, 12"), bg='#ff007f', wid
 pattern2.grid(row=0, column=3)
 ```
 ![GUI](diagram/gui_pattern_presets.jpg)
-
+*Photo of Feature Buttons*
 
 ## Code for the the features function
 Code for **All WHITE** Function. 
@@ -237,6 +245,7 @@ def allwhite():
       value[i][j] = 0
 ```
 ![GUI](diagram/gui_all_white.jpg)
+*Photo of ALL WHITE Feature*
 
 Code for **All BLACK** Function. 
 ```
@@ -247,6 +256,7 @@ print("All Black!")
       value[i][j] = 90
 ```
 ![GUI](diagram/gui_all_black.jpg)
+*Photo of ALL BLACK Feature*
 
 Code for **PATTERN 1** Function.  
 ```
@@ -274,7 +284,7 @@ def pat1():
         value[i][j] = 90 
 ```
 ![GUI](diagram/gui_sequence_pattern.jpg)
-
+*Photo of PATTERN 1 Feature*
 
 Code for **PATTERN 2** Function. 
 ```
@@ -295,7 +305,7 @@ def pat2():
         value[i][j] = 90 
 ```
 ![GUI](diagram/gui_x_pattern.jpg)
-
+*Photo of PATTERN 2 Feature*
 
 # Send Button 
 There are different values for each shade of grey, 
@@ -304,6 +314,7 @@ send = Button(frame4, text="Send Imaged!", font=("Arial, 12"), width=13, height=
 send.grid(row=0, column=0)
 ```
 ![GUI](diagram/gui_send_image.jpg)
+*Photo of Send Value Button*
 
 ## Assign function to the send button. 
 First, create a variable to store the value. 
