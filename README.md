@@ -8,7 +8,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
-**Version** : Buster
+**Version** : 2020-02-13-RASPIAN-BUSTER
 ![GUI](diagram/Pi4.png)
 
 # Software Setup & Installation 
