@@ -7,6 +7,10 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 ![GUI](diagram/gui.jpg) <br>
 *Photo of Completed GUI*
 
+# Code Flowchart
+![GUI](diagram/CodeFlowchart.jpg) <br>
+*Diagram of GUI's code flowchart*
+
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
 **Version** : Raspbian GNU Linux 10 Buster <br>
