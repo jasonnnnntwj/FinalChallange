@@ -1,7 +1,7 @@
 
 # The Final 32 x 32 GUI Documentation
 
-This documentation is regarding the **32 x 32** GUI and its features. This GUI is made to control polarised motors to display pixelised images. There are different shades of grey to allow the user to draw on it too along with preset patterns for the user to use. The different shades of grey has different values that will process when the "Send Image" button is pressed.
+This documentation is regarding the **32 x 32** GUI and its features. This GUI is made to control polarised motors to display pixelised images. There are different shades of grey the user can choose from, along with preset patterns for the user to use. The different shades of grey have different values that will process when the "Send Image" button is pressed.
 
 # Completed GUI
 ![GUI](diagram/gui.jpg) <br>
@@ -22,7 +22,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 
 ### PuTTy
 After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**" <br>
-Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. <br> 
+Input a name under **Saved Sessions** and click on save, the file will appear at the left hand side of the Settings. <br> 
 Click the file once and load it. <br>
 To finish it off, click **Open**.
 
@@ -43,7 +43,7 @@ sudo passwd
 ## 1. Updating of Raspberry Pi
 
 ```
-sudo apt update <br>
+sudo apt update
 sudo apt upgrade
 ```
 
