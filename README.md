@@ -335,5 +335,8 @@ def sendimg():
   print("Image Print! Values are...")
   print(value)
 ```
+## **Output**
+![GUI](diagram/terminalOutput.jpg) <br>
+*Photo of sendimg function's value printed on terminal*
 
  
