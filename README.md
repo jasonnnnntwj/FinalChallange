@@ -173,8 +173,11 @@ def change_colour(m):
 ```
 ## **Output**
 
+<<<<<<< HEAD
 ![GUI](diagram/change_colour.gif)
 
+=======
+>>>>>>> 98c95e6fdc99ab716936a99ce6b01b2a4881545c
 Using if else statement to create fucntions for the white buttons. 
 ```
 def whitebtn(i, j):
@@ -207,7 +210,10 @@ def whitebtn(i, j):
 ## **Output**
 ![GUI](diagram/white_btn.gif)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 98c95e6fdc99ab716936a99ce6b01b2a4881545c
 # Features Buttons 
 Similar to the shade buttons, the specific command has to be add to the button to have a different outcome.
 ```
@@ -224,8 +230,6 @@ pattern2 = Button(frame3, text="Pattern 2",font=("Arial, 12"), bg='#ff007f', wid
 pattern2.grid(row=0, column=3)
 ```
 ![GUI](diagram/gui_pattern_presets.jpg)
-
-
 
 
 ## Code for the the features function
