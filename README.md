@@ -12,6 +12,10 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 **Version** : Raspbian GNU Linux 10 Buster <br>
 ![GUI](diagram/Pi4.png) <br>
 *Photo of Raspberry Pi*
+---
+---
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.raspberrypi.com%2Fproducts%2Fraspberry-pi-4-model-b%2F&psig=AOvVaw1p_VX8K46ex9KxcFOp_uTz&ust=1668130450151000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCID_i6m8ovsCFQAAAAAdAAAAABAF
+
 
 # Software Setup & Installation 
 ## Setting up of the Raspberry PI
@@ -22,6 +26,7 @@ Input a name under **Saved Sessions** and click on save, the file would appear a
 
 ![GUI](diagram/puttyConfig.jpg) <br>
 *Photo of PuTTy Setup*
+
 
 Enter your username and password. The default login for User is "pi" and the Password is "raspberry".
 
