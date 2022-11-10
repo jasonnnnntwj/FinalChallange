@@ -89,7 +89,7 @@ main.mainloop()
 *Photo of Main Window*
 
 # Frame Function
-Under the **Main Window** there are many buttons, frames are made to make the buttons organised. This will help with the buttons being in their own group.
+Under the **Main Window** there are many buttons, so frames are made to make the buttons organised. Frames will help separate the buttons into their own group.
 
 **Frame1** is for the 32x32 grid.
 ```
