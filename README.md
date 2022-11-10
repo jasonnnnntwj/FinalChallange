@@ -4,7 +4,7 @@
 This documentation is regarding the **32 x 32** GUI and its features. This GUI is made to control polarised motors to display pixelised images. There are different shades of grey to allow the user to draw on it too along with preset patterns for the user to use. The different shades of grey has different values that will process when the "Send Image" button is pressed.
 
 # Completed GUI
-![GUI](diagram/gui.jpg)
+![GUI](diagram/gui.jpg) <br>
 *Photo of Completed GUI*
 
 # Hardware Used
