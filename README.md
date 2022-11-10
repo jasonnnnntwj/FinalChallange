@@ -294,7 +294,9 @@ def allwhite():
 
 Code for **All BLACK** Function. 
 ```
-print("All Black!")
+
+def allblack():
+ print("All Black!")
   for j in range (32):
     for i in range (32):
       button[i][j].config(bg='grey1')
