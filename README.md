@@ -7,14 +7,46 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 ![GUI](diagram/gui.jpg) <br>
 *Photo of Completed GUI*
 
-# Code Flowchart
-![GUI](diagram/CodeFlowchart.jpg) <br>
-*Diagram of GUI's code flowchart*
+## Code Flowchart
+```mermaid
+graph TD;
+A[<font size = 10, color ='Red'>main.py]-->B[<font size = 10, color ='Yellow'>Presets] 
+
+B-->C[<font size = 10>All Black]
+B-->D[<font size = 10>All White ]
+B-->E[<font size = 10>Pattern 1]
+B-->F[<font size = 10>Pattern 2]
+
+A-->G[<font size = 10, color ='Yellow'>Colour Button]
+G-->H[<font size = 10, color =#FFFFFF>White]
+G-->I[<font size = 10, color =#e0e0e0>Grey 1]
+G-->J[<font size = 10, color =#c4c4c4>Grey 2]
+G-->K[<font size = 10, color =#a8a8a8>Grey 3]
+G-->L[<font size = 10, color =#707070>Grey 4]
+G-->M[<font size = 10, color =#545454>Grey 5]
+G-->N[<font size = 10, color =#666366>Grey 6]
+G-->Z[<font size = 10, color =#FFFFFF>Black]
+C-->O[<font size = 10>32x32Grid]
+D-->O
+E-->O
+F-->O
+H-->O
+I-->O
+J-->O
+K-->O
+L-->O
+M-->O
+N-->O
+Z-->O
+A-->P[<font size = 10, color ='Yellow'>Send Image]
+P-->Q[<font size = 10>Terminal]
+```
+*Diagram of Code Flowchart*
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
 **Version** : Raspbian GNU Linux 10 Buster <br>
- <br>
+![GUI](diagram/Pi4.jpg) <br>
 *Photo of Raspberry Pi*
 ---
 ---
