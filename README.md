@@ -14,7 +14,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
 **Version** : Raspbian GNU Linux 10 Buster <br>
-![GUI](diagram/Pi4.jpg) <br>
+ <br>
 *Photo of Raspberry Pi*
 ---
 ---
