@@ -1,4 +1,3 @@
-
 from tkinter import*
 from turtle import color
 
@@ -10,23 +9,23 @@ from turtle import color
 def ColourSwitch(a):
  global colour
  colour= a
- print("currently selected colour is {}".format(colour))
-#  if colour == 0:
-#     print("Click button to make it white.")
-#  elif colour ==1:
-#     print("Click button to make it gray 1")
-#  elif colour ==2:
-#     print("Click button to make it gray 2")
-#  elif colour ==3:
-#     print("Click button to make it gray 3")    
-#  elif colour ==4:
-#     print("Click button to make it gray 4")    
-#  elif colour ==5:
-#     print("Click button to make it gray 5")
-#  elif colour ==6:
-#     print("Click button to make it gray 6")
-#  else:
-#     print("Click button to make it black")
+#  print("currently selected colour is {}".format(colour))
+ if colour == 0:
+    print("Click button to make it white.")
+ elif colour ==1:
+    print("Click button to make it gray 1")
+ elif colour ==2:
+    print("Click button to make it gray 2")
+ elif colour ==3:
+    print("Click button to make it gray 3")    
+ elif colour ==4:
+    print("Click button to make it gray 4")    
+ elif colour ==5:
+    print("Click button to make it gray 5")
+ elif colour ==6:
+    print("Click button to make it gray 6")
+ else:
+    print("Click button to make it black")
 
 #function to assign button to colour 
 def ColourButton(i, j):

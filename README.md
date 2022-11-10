@@ -102,7 +102,8 @@ frame4.grid(row=2, columnspan=2)
 ![GUI](diagram/gui_frame.jpg)
 
 # Create 32 x 32 Buttons
-The 32 x 32 buttons are made by **nested for loop**
+The 32 x 32 buttons are made by **nested for loop** that is inside
+the list 'button'
 ```
 button = [[j for j in range(32)] for i in range(32)]
 for j in range (32):
@@ -170,8 +171,9 @@ def change_colour(m):
   else :
     print("Choose Button to change color to Black!")
 ```
+## **Output**
 
-(Pic)
+![GUI](diagram/change_colour.gif)
 
 Using if else statement to create fucntions for the white buttons. 
 ```
@@ -202,8 +204,9 @@ def whitebtn(i, j):
     button[i][j].config(bg='grey1')
     value[i][j] = 90
 ```
+## **Output**
+![GUI](diagram/white_btn.gif)
 
-(Pic)
 
 # Features Buttons 
 Similar to the shade buttons, the specific command has to be add to the button to have a different outcome.
@@ -247,7 +250,7 @@ print("All Black!")
 ```
 ![GUI](diagram/gui_all_black.jpg)
 
-Code for **All PATTERN 1** Function.  
+Code for **PATTERN 1** Function.  
 ```
 def pat1():
   print("Pattern 1!")
@@ -275,7 +278,7 @@ def pat1():
 ![GUI](diagram/gui_sequence_pattern.jpg)
 
 
-Code for **All PATTERN 2** Function. 
+Code for **PATTERN 2** Function. 
 ```
 def pat2():
   print("Pattern 2!")
