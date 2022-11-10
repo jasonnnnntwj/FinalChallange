@@ -5,6 +5,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 
 # Completed GUI
 ![GUI](diagram/gui.jpg)
+*Photo of Completed GUI*
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
