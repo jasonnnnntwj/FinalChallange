@@ -355,7 +355,7 @@ def pat2():
 *Photo of PATTERN 2 Feature*
 
 # Send Button 
-There are different values for each shade of grey, 
+There are different values for each shade of grey which will be shown at the output when the Send Image button is pressed.
 ```
 send = Button(frame4, text="Send Imaged!", font=("Arial, 12"), width=13, height=2, command=sendimg)
 send.grid(row=0, column=0)
