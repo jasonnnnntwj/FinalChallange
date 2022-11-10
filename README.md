@@ -364,7 +364,7 @@ send.grid(row=0, column=0)
 *Photo of Send Value Button*
 
 ## Assign function to the send button. 
-First, create a variable to store the value. 
+Create a variable to store the value. 
 ```
 value = [[0 for j in range(32)] for i in range (32)]
 ```
