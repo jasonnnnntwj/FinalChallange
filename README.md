@@ -45,7 +45,7 @@ P-->Q[<font size = 10>Terminal]
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
-**Version** : Raspbian GNU Linux 10 Buster <br>
+**Version** : Raspbian GNU Linux 10 Buster <br><br>
 ![GUI](diagram/Pi4.jpg) <br>
 *Photo of Raspberry Pi*
 ---
