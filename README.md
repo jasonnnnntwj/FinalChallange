@@ -20,12 +20,12 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**"
 Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. Click the file once and load it. To finish it off Click **Open**.
 
-![GUI](diagram/piTerminal.jpg) <br>
+![GUI](diagram/puttyConfig.jpg) <br>
 *Photo of PuTTy Setup*
 
 Enter your username and password. The default login for User is "pi" and the Password is "raspberry".
 
-![GUI](diagram/puttyConfig.jpg) <br>
+![GUI](diagram/piTerminal.jpg) <br>
 *Photo of PuTTy CMD*
 
 To change your password, use the following command
