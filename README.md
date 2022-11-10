@@ -378,6 +378,6 @@ def sendimg():
 ```
 ## **Output**
 ![GUI](diagram/terminalOutput.jpg) <br>
-*Photo of sendimg function's value printed on terminal*
+*Photo of sendimg function's value printed on terminal for pattern 1's output*
 
  
