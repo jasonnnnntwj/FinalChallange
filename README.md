@@ -21,7 +21,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 ## Setting up of the Raspberry PI
 
 ### PuTTy
-After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**"
+After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**" <br>
 Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. Click the file once and load it. To finish it off Click **Open**.
 
 ![GUI](diagram/puttyConfig.jpg) <br>
