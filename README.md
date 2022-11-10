@@ -8,7 +8,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
-**Version** : 2020-02-13-RASPIAN-BUSTER
+**Version** : Buster
 ![GUI](diagram/Pi4.png)
 
 # Software Setup & Installation 
@@ -174,11 +174,8 @@ def change_colour(m):
 ```
 ## **Output**
 
-<<<<<<< HEAD
 ![GUI](diagram/change_colour.gif)
 
-=======
->>>>>>> 98c95e6fdc99ab716936a99ce6b01b2a4881545c
 Using if else statement to create fucntions for the white buttons. 
 ```
 def whitebtn(i, j):
@@ -211,10 +208,6 @@ def whitebtn(i, j):
 ## **Output**
 ![GUI](diagram/white_btn.gif)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 98c95e6fdc99ab716936a99ce6b01b2a4881545c
 # Features Buttons 
 Similar to the shade buttons, the specific command has to be add to the button to have a different outcome.
 ```
