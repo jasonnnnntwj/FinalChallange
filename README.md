@@ -9,7 +9,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
 **Version** : Raspbian Buster <br>
-![GUI](diagram/Pi4.png)
+![GUI](diagram/Pi4.png) <br>
 *Photo of Raspberry Pi*
 
 # Software Setup & Installation 
@@ -19,12 +19,12 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**"
 Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. Click the file once and load it. To finish it off Click **Open**.
 
-![GUI](diagram/piTerminal.jpg)
+![GUI](diagram/piTerminal.jpg) <br>
 *Photo of PuTTy Setup*
 
 Enter your username and password. The default login for User is "pi" and the Password is "raspberry".
 
-![GUI](diagram/puttyConfig.jpg)
+![GUI](diagram/puttyConfig.jpg) <br>
 *Photo of PuTTy CMD*
 
 To change your password, use the following command
@@ -76,7 +76,7 @@ For the window to stay on the screen, we need to loop it.
 main.mainloop()
 ```
 
-![GUI](diagram/tkinterWindow.jpg)
+![GUI](diagram/tkinterWindow.jpg) <br>
 *Photo of Main Window*
 
 # Frame Function
@@ -103,7 +103,7 @@ frame4 = Frame(main) #Send btn
 frame4.grid(row=2, columnspan=2)
 ```
 
-![GUI](diagram/gui_frame.jpg)
+![GUI](diagram/gui_frame.jpg) <br>
 *Photo of Frames in Window*
 
 # Create 32 x 32 Buttons
@@ -117,7 +117,7 @@ for j in range (32):
     button[i][j].grid(row=i, column=j)
 ```
 
-![GUI](diagram/gui_grid.jpg)
+![GUI](diagram/gui_grid.jpg) <br>
 *Photo of 32 x 32 Grid*
 
 # Create Shades Buttons
@@ -148,7 +148,7 @@ black = Button(frame2, text="Black", font=("Arial, 12"), bg='grey1', fg='white',
 black.grid(row=7, column=0)
 ```
 _
-![GUI](diagram/gui_colour_buttons.jpg)
+![GUI](diagram/gui_colour_buttons.jpg) <br>
 *Photo of Shade Buttons*
 
 
@@ -180,7 +180,7 @@ def change_colour(m):
 ```
 ## **Output**
 
-![GUI](diagram/change_colour.gif)
+![GUI](diagram/change_colour.gif) <br>
 *GIF Of Shade Change command*
 
 Using if else statement to create function for the white buttons. 
@@ -213,7 +213,7 @@ def whitebtn(i, j):
     value[i][j] = 90
 ```
 ## **Output**
-![GUI](diagram/white_btn.gif)
+![GUI](diagram/white_btn.gif) <br>
 *Photo of Shade color change*
 
 # Features Buttons 
@@ -231,7 +231,7 @@ pattern1.grid(row=0, column=2)
 pattern2 = Button(frame3, text="Pattern 2",font=("Arial, 12"), bg='#ff007f', width=13, height=2, command=pat2)
 pattern2.grid(row=0, column=3)
 ```
-![GUI](diagram/gui_pattern_presets.jpg)
+![GUI](diagram/gui_pattern_presets.jpg) <br>
 *Photo of Feature Buttons*
 
 ## Code for the the features function
@@ -244,7 +244,7 @@ def allwhite():
       button[i][j].config(bg='grey99')
       value[i][j] = 0
 ```
-![GUI](diagram/gui_all_white.jpg)
+![GUI](diagram/gui_all_white.jpg) <br>
 *Photo of ALL WHITE Feature*
 
 Code for **All BLACK** Function. 
@@ -255,7 +255,7 @@ print("All Black!")
       button[i][j].config(bg='grey1')
       value[i][j] = 90
 ```
-![GUI](diagram/gui_all_black.jpg)
+![GUI](diagram/gui_all_black.jpg) <br>
 *Photo of ALL BLACK Feature*
 
 Code for **PATTERN 1** Function.  
@@ -283,7 +283,7 @@ def pat1():
         button[i][j].config(bg='grey1') 
         value[i][j] = 90 
 ```
-![GUI](diagram/gui_sequence_pattern.jpg)
+![GUI](diagram/gui_sequence_pattern.jpg) <br>
 *Photo of PATTERN 1 Feature*
 
 Code for **PATTERN 2** Function. 
@@ -304,7 +304,7 @@ def pat2():
         button[i][j].config(bg='grey1') 
         value[i][j] = 90 
 ```
-![GUI](diagram/gui_x_pattern.jpg)
+![GUI](diagram/gui_x_pattern.jpg) <br>
 *Photo of PATTERN 2 Feature*
 
 # Send Button 
@@ -313,7 +313,7 @@ There are different values for each shade of grey,
 send = Button(frame4, text="Send Imaged!", font=("Arial, 12"), width=13, height=2, command=sendimg)
 send.grid(row=0, column=0)
 ```
-![GUI](diagram/gui_send_image.jpg)
+![GUI](diagram/gui_send_image.jpg) <br>
 *Photo of Send Value Button*
 
 ## Assign function to the send button. 
