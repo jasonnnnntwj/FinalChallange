@@ -77,7 +77,8 @@ Create a window
 main = Tk()
 ```
 
-For the window to stay on the screen, we need to loop it. 
+For the window to stay on the screen, we need to loop it. (Make sure the mainloop is at the bottom of the code if not the code outside won't be included
+in the tkinter window)
 ```
 main.mainloop()
 ```
