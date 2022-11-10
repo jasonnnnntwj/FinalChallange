@@ -9,7 +9,7 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 # Hardware Used
 **Model of hardware** : RaspberryPi 4 Model B <br>
 **Version** : Buster
-(Pic of raspberry pi)
+![GUI](diagram/Pi4.png)
 
 # Software Setup & Installation 
 ## Setting up of the Raspberry PI
@@ -18,11 +18,12 @@ This documentation is regarding the **32 x 32** GUI and its features. This GUI i
 After installing PuTTy, Change your desired **hostname** and **Connection Type** to "**SSH**"
 Input a name under **Saved Sessions** and click on save, the file would appear at the left hand side of the Settings. Click the file once and load it. To finish it off Click **Open**.
 
-(Pic)
+![GUI](diagram/piTerminal.jpg)
+
 
 Enter your username and password. The default login for User is "pi" and the Password is "raspberry".
 
-(Pic)
+![GUI](diagram/puttyConfig.jpg)
 
 To change your password, use the following command
 ``` 
